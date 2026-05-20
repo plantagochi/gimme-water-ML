@@ -19,4 +19,10 @@ dependencies = [
     "ipympl>=0.10.0",
     "opencv-python>=4.10.0",
     "sam-2 @ git+https://github.com/facebookresearch/sam2.git",
+    "ultralytics>=8.4.51",
+    "clip",
+    "transformers>=5.8.1",
 ]
+
+[tool.uv.sources]
+clip = { git = "https://github.com/ultralytics/CLIP.git" }

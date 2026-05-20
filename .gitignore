@@ -16,9 +16,14 @@ biophysics_database_palm/
 dataset/train/*
 dataset/validate/*
 dataset/collector/*
+dataset/yolo_seg/*
 dataset_labels/*
 photos/*
+runs/
 
+#models
+**/*.ts
+**/*.pt
 
 #os
 .DS_Store
