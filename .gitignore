@@ -20,6 +20,7 @@ dataset/yolo_seg/*
 dataset_labels/*
 photos/*
 runs/
+**/*.zip
 
 #models
 **/*.ts
