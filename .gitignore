@@ -20,13 +20,15 @@ dataset/yolo_seg/*
 dataset_labels/*
 photos/*
 runs/
+**/*.zip
 
 #models
 **/*.ts
 **/*.pt
 
 #os
-.DS_Store
+**/*.DS_Store
+dataset/.DS_Store
 
 #claude
 .claude
